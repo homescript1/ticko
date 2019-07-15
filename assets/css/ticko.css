@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+input[name="ticko_ticket_offer_name"],
+input[name="ticko_ticket_prefix"],
+input[name="ticko_event_day"],
+input[name="ticko_email"],
+input[name="ticko_phone_number"],
+input[name="ticko_quantity"],
+input[name="ticko_prix"] {
+    margin: 10px;
+}
+
+div.ticko_ticket_fields {
+    background-color: beige;
+}
+
+button#ticko_new_ticker.button-primary {
+    margin-top: 10px;
+}
+
+
+    button#ticko_remove_ticket {
+        position: relative;
+        left: 502px;
+        top: -114px;
+    }
+
+
+@media screen and (max-width: 600px) {
+    button#ticko_remove_ticket {
+        position: relative;
+        left: 502px;
+        top: -114px;
+    }
+}
